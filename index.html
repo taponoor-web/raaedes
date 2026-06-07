@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
-    <!-- Google tag (gtag.js) - Google Ads Conversion -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18202669279"></script>
+    <!-- Google tag (gtag.js) - كود التتبع الجديد -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16586800443"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-18202669279');
+      gtag('config', 'AW-16586800443');
     </script>
 
-    <!-- Event snippet for conversion -->
+    <!-- Event snippet for نقرة صادرة إلى الخارج conversion page -->
     <script>
     function gtag_report_conversion(url) {
       var callback = function () {
@@ -22,7 +22,7 @@
         }
       };
       gtag('event', 'conversion', {
-          'send_to': 'AW-18202669279/AQj5CPW7xbocEN_h2udD',
+          'send_to': 'AW-16586800443/T11HCKXEyrocELv6meU9',
           'event_callback': callback
       });
       return false;
@@ -948,7 +948,6 @@
         var phoneElements = document.querySelectorAll('[onclick*="makePhoneCall"], .phone-display, .footer-phone, .hero-btn, .package-btn, .floating-btn');
         phoneElements.forEach(function(el) {
             el.addEventListener('touchstart', function(e) {
-                // لا نمنع السلوك الافتراضي تماماً بل نسمح للنقر أيضًا، لكن نضمن الاستجابة السريعة
                 if (this.getAttribute('onclick')) {
                     var onclickAttr = this.getAttribute('onclick');
                     if (onclickAttr.includes('makePhoneCall')) {
