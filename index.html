@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- Google tag (gtag.js) - Google Ads Conversion -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18202669279"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18202669279');
+    </script>
+
+    <!-- Event snippet for conversion -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18202669279/AQj5CPW7xbocEN_h2udD',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- دالة معالجة مكالمات الهاتف مع تتبع التحويل ودعم اللمس (iPhone) -->
+    <script>
+    function makePhoneCall(phoneNumber) {
+      var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+      if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+        if (cleanNumber.startsWith('965')) {
+          cleanNumber = '+' + cleanNumber;
+        } else {
+          cleanNumber = '+965' + cleanNumber;
+        }
+      }
+      var telUrl = 'tel:' + cleanNumber;
+      
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(telUrl);
+      }
+      
+      setTimeout(function() {
+        window.location.href = telUrl;
+      }, 100);
+      
+      return false;
+    }
+
+    // دالة معالجة روابط واتساب مع تتبع التحويل
+    function trackWhatsAppClick(url) {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(url);
+      }
+      setTimeout(function() {
+        window.open(url, '_blank');
+      }, 100);
+      return false;
+    }
+    </script>
+
+    <!-- بيانات منظمة لتحسين SEO (طباخات) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "مركز صيانة الطباخات - فني طباخات محترف بالكويت",
+        "description": "أفضل مركز متخصص في صيانة جميع أنواع الطباخات بالكويت - تصليح الطباخات الغاز والكهربائية - فني صيانة طباخات محترف - خدمة منزلية فورية - ضمان على القطع والعمل",
+        "telephone": "+96566165245",
+        "areaServed": "Kuwait",
+        "serviceType": "فني طباخات, تصليح طباخات, صيانة طباخات, تركيب طباخات, فني غاز طباخات",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Kuwait"
+        },
+        "openingHours": "Mo-Su 08:00-22:00"
+    }
+    </script>
+
+    <title>مركز صيانة الطباخات | فني طباخات محترف بالكويت | 66165245</title>
+    <meta name="description" content="✅ مركز متخصص في صيانة جميع أنواع الطباخات - تصليح الطباخات المعطلة - فني صيانة طباخات محترف - خدمة منزلية في جميع مناطق الكويت - اتصل الآن 66165245">
+    <meta name="keywords" content="فني طباخات, تصليح طباخات, صيانة طباخات, فني طباخات غاز, كهربائي طباخات, تركيب طباخات, صيانة طباخات بالكويت, تصليح بوتاجاز, فني بوتاجاز">
+    <meta name="location" content="Kuwait">
+
+    <!-- تحسين الخطوط والأداء -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-orange: #E67E22;
+            --dark-orange: #D35400;
+            --light-orange: #FEF5E7;
+            --accent-red: #E74C3C;
+            --accent-gray: #7F8C8D;
+            --clean-white: #FFFFFF;
+            --soft-gray: #F9F9F9;
+            --text-dark: #2C3E50;
+            --call-green: #27AE60;
+            --highlight-yellow: #F1C40F;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        body {
+            background: var(--soft-gray);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        .scrolling-banner {
+            background: var(--dark-orange);
+            color: white;
+            padding: 12px 0;
+            overflow: hidden;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border-bottom: 2px solid var(--highlight-yellow);
+        }
+        
+        .scrolling-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 20s linear infinite;
+            padding-left: 100%;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        .navbar {
+            background: var(--primary-orange);
+            color: white;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            color: var(--highlight-yellow);
+            font-weight: 900;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .phone-display {
+            color: var(--highlight-yellow);
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+            background: rgba(255,255,255,0.15);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+        }
+        
+        .phone-display:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.25);
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #E67E22, #D35400);
+            color: white;
+            padding: 6rem 2rem 8rem;
+            text-align: center;
+            min-height: 65vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url('https://images.unsplash.com/photo-1584990347449-a9d037f4c19a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(211, 84, 0, 0.88);
+        }
+        
+        .hero h1, .hero p, .hero-buttons {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            color: #FFE5CC;
+            font-weight: 500;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .hero-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.9rem 1.8rem;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s;
+            background: var(--accent-red);
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
+            will-change: transform;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hero-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .secondary-btn {
+            background: var(--call-green);
+            animation: pulse 2s infinite;
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .services {
+            padding: 5rem 2rem;
+            background: var(--soft-gray);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-orange);
+            font-size: 2rem;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--accent-red);
+            margin: 0.5rem auto 0;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            border-top: 4px solid var(--accent-red);
+            will-change: transform;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-icon {
+            font-size: 2.5rem;
+            color: var(--primary-orange);
+            margin-bottom: 1rem;
+        }
+        
+        .service-list {
+            padding-right: 20px;
+            line-height: 1.9;
+            font-size: 1rem;
+        }
+        
+        .service-list li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-right: 30px;
+        }
+        
+        .service-list li::before {
+            content: "✓";
+            color: var(--accent-red);
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+        }
+        
+        .floating-btns {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            gap: 1rem;
+        }
+        
+        .floating-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1.1rem 2rem;
+            border-radius: 50px;
+            color: white;
+            background: var(--accent-red);
+            text-decoration: none;
+            font-weight: 700;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .floating-secondary {
+            background: var(--call-green);
+        }
+        
+        .floating-whatsapp {
+            background: #25D366;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+        
+        .why-us {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto 0;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--accent-red);
+            margin-bottom: 1rem;
+        }
+        
+        .simple-footer {
+            background: var(--primary-orange);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        .simple-footer p {
+            margin: 0.5rem 0;
+            color: #FFE5CC;
+        }
+        
+        .footer-phone {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .footer-phone:hover {
+            transform: scale(1.05);
+            color: var(--highlight-yellow);
+        }
+        
+        .search-tags {
+            background-color: #f8f9fa;
+            padding: 25px;
+            text-align: center;
+            margin-top: 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .service-tag {
+            background: linear-gradient(135deg, #E67E22 0%, #E74C3C 100%);
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid #F1C40F;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            cursor: default;
+            transition: transform 0.2s;
+        }
+        
+        .service-tag:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .types-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, var(--soft-gray), white);
+        }
+        
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .type-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            border-bottom: 3px solid var(--accent-red);
+        }
+        
+        .type-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .packages {
+            padding: 5rem 2rem;
+            background: var(--soft-gray);
+        }
+        
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .package-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s;
+            border-top: 4px solid var(--accent-red);
+        }
+        
+        .package-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .package-title {
+            font-size: 1.5rem;
+            color: var(--primary-orange);
+            margin-bottom: 1.5rem;
+        }
+        
+        .package-price {
+            font-size: 1.3rem;
+            color: var(--accent-red);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        
+        .package-features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+        
+        .package-features li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .package-btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: var(--accent-red);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .package-btn:hover {
+            background: var(--primary-orange);
+            transform: scale(1.05);
+        }
+        
+        .testimonials {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: var(--soft-gray);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        
+        .testimonial-author {
+            font-weight: bold;
+            color: var(--accent-red);
+        }
+        
+        .contact-form {
+            padding: 5rem 2rem;
+            background: var(--soft-gray);
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background: var(--accent-red);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            background: var(--primary-orange);
+            transform: scale(1.02);
+        }
+        
+        .hours-badge {
+            background: var(--call-green);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 30px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .contact-info {
+            background: #FEF5E7;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                padding: 5rem 1rem 6rem;
+                min-height: 55vh;
+            }
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .services, .packages, .why-us, .testimonials, .contact-form, .types-section {
+                padding: 3rem 1rem;
+            }
+            .floating-btns {
+                bottom: 1rem;
+                right: 1rem;
+            }
+            .floating-btn {
+                padding: 0.9rem 1.5rem;
+                font-size: 0.9rem;
+            }
+            .navbar {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .logo {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-banner">
+        <div class="scrolling-content">
+            🔥 مركز متخصص في صيانة جميع أنواع الطباخات - تصليح الطباخات المعطلة - فني صيانة محترف - خدمة منزلية في جميع مناطق الكويت - اتصل الآن: 66165245 | ضمان شامل | فني طباخات غاز وكهرباء
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">🍳 مركز صيانة الطباخات - فني طباخات محترف بالكويت</div>
+        <div class="phone-display" onclick="makePhoneCall('66165245')">
+            <i class="fas fa-phone"></i> 66165245
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hours-badge">
+            <i class="fas fa-tools"></i> خدمة منزلية فورية - ضمان على القطع والعمل - كشف مجاني
+        </div>
+        <h1>🔧 مركز صيانة الطباخات | فني طباخات محترف بالكويت | اتصل 66165245</h1>
+        <p>تصليح جميع أنواع الطباخات (غاز - كهرباء) - إصلاح أعطال الإشعال، الحرارة، التسرب - فني صيانة طباخات معتمد - خدمة منزلية سريعة تغطي جميع مناطق الكويت.</p>
+        <div class="hero-buttons">
+            <button class="hero-btn secondary-btn" onclick="makePhoneCall('66165245')">
+                <i class="fas fa-phone-volume"></i>
+                اتصل الآن (كشف مجاني)
+            </button>
+            <button class="hero-btn whatsapp-btn" onclick="trackWhatsAppClick('https://wa.me/96566165245')">
+                <i class="fab fa-whatsapp"></i>
+                واتساب فوري
+            </button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">خدماتنا المتخصصة في صيانة الطباخات</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-fire service-icon"></i>
+                <h3>تصليح الطباخات</h3>
+                <ul class="service-list">
+                    <li>إصلاح جميع أعطال الطباخات الغاز والكهربائية</li>
+                    <li>مشاكل الإشعال، ضعف اللهب، عدم الاشتعال</li>
+                    <li>أعطال الحرارة والثرموستات والتوصيلات الكهربائية</li>
+                    <li>تبديل مفاتيح التشغيل والأسلاك الداخلية</li>
+                    <li>معالجة تسرب الغاز أو الزيت</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-sync-alt service-icon"></i>
+                <h3>صيانة الطباخات</h3>
+                <ul class="service-list">
+                    <li>صيانة دورية للطباخات للحفاظ على الأداء الأمثل</li>
+                    <li>تنظيف شامل للأجزاء الداخلية والخارجية</li>
+                    <li>فحص سلامة التوصيلات والخراطيم</li>
+                    <li>ضبط درجة حرارة الفرن والشعلات</li>
+                    <li>إطالة عمر الطباخ وتجنب الأعطال المستقبلية</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tools service-icon"></i>
+                <h3>تركيب وفك الطباخات</h3>
+                <ul class="service-list">
+                    <li>تركيب الطباخات الجديدة باحترافية</li>
+                    <li>تبديل الطباخ القديم بآخر جديد</li>
+                    <li>توصيل الغاز والكهرباء بأمان وفق المواصفات</li>
+                    <li>فحص التسريبات وضمان السلامة</li>
+                    <li>فني تركيب طباخات معتمد في الكويت</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="types-section">
+        <h2 class="section-title">جميع مشاكل الطباخات التي نصلحها</h2>
+        <div class="types-grid">
+            <div class="type-item"><h3>الطباخ لا يشعل</h3><p>إصلاح نظام الإشعال</p></div>
+            <div class="type-item"><h3>لهب ضعيف أو أصفر</h3><p>تنظيف الفتحات وضبط الهواء</p></div>
+            <div class="type-item"><h3>رائحة غاز</h3><p>فحص الخراطيم والتسريبات</p></div>
+            <div class="type-item"><h3>الفرن لا يسخن</h3><p>تغيير الثيرموستات أو عنصر التسخين</p></div>
+            <div class="type-item"><h3>أزرار عالقة أو تالفة</h3><p>تبديل مفاتيح التحكم</p></div>
+            <div class="type-item"><h3>تسرب زيت أو مياه</h3><p>إصلاح العزل والحشوات</p></div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2 class="section-title">لماذا تختار مركز صيانة الطباخات؟</h2>
+        <div class="features">
+            <div class="feature-item"><i class="fas fa-user-check feature-icon"></i><h3>فنيون متخصصون</h3><p>فريق مدرب على أعلى مستوى في صيانة الطباخات</p></div>
+            <div class="feature-item"><i class="fas fa-home feature-icon"></i><h3>خدمة منزلية</h3><p>نأتي إليك أينما كنت في الكويت</p></div>
+            <div class="feature-item"><i class="fas fa-shield-alt feature-icon"></i><h3>ضمان على العمل</h3><p>ضمان شامل على القطع وخدمة التركيب</p></div>
+            <div class="feature-item"><i class="fas fa-bolt feature-icon"></i><h3>إصلاح سريع</h3><p>إنهاء أغلب الأعطال خلال زيارة واحدة</p></div>
+        </div>
+    </section>
+
+    <section class="packages">
+        <h2 class="section-title">باقات صيانة وتصليح الطباخات - أسعار تنافسية</h2>
+        <div class="packages-grid">
+            <div class="package-card">
+                <h3 class="package-title">باقة تصليح طباخ غاز</h3>
+                <div class="package-price">أسعار اقتصادية</div>
+                <ul class="package-features">
+                    <li>فحص كامل للطباخ مجاني</li>
+                    <li>إصلاح أعطال الإشعال واللهب</li>
+                    <li>تغيير القطع التالفة (خراطيم، مفاتيح)</li>
+                    <li>ضمان 3 أشهر على القطع</li>
+                    <li>خدمة سريعة خلال 24 ساعة</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('66165245')">طلب خدمة فورية</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة صيانة طباخ كهربائي</h3>
+                <div class="package-price">عروض خاصة</div>
+                <ul class="package-features">
+                    <li>فحص شامل للوحة التحكم والعناصر</li>
+                    <li>تبديل الثيرموستات أو عناصر التسخين</li>
+                    <li>صيانة الأسلاك والدوائر الكهربائية</li>
+                    <li>ضمان 6 أشهر على القطع المبدلة</li>
+                    <li>كهربائي طباخات محترف</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('66165245')">طلب خدمة فورية</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة التركيب والفحص الوقائي</h3>
+                <div class="package-price">خصم خاص</div>
+                <ul class="package-features">
+                    <li>تركيب طباخ جديد أو تبديل قديم</li>
+                    <li>فحص شامل لجميع التوصيلات</li>
+                    <li>تنظيف مكثف واختبار الأداء</li>
+                    <li>ضمان مطول على العمل</li>
+                    <li>أولوية في الخدمة وخصم 15%</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('66165245')">طلب خدمة فورية</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">آراء عملائنا الكرام</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card"><p class="testimonial-text">"فني طباخات محترف جداً، أصلح طباخ الغاز في أقل من ساعة. كشف مجاني وأسعار مناسبة. أنصح به وبشدة لسرعة الاستجابة."</p><p class="testimonial-author">- أم خالد - حولي</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"مركز ممتاز لصيانة الطباخات، غيروا الثيرموستات للفرن وأصبح يعمل بكفاءة. شكراً على الضمان والاحترافية."</p><p class="testimonial-author">- أبو يوسف - الفروانية</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"خدمة منزلية فورية، ركبوا طباخي الجديد بدقة وأمان. رقم 66165245 يستحق التجربة، أنصح الجميع به."</p><p class="testimonial-author">- سارة - الجهراء</p></div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2 class="section-title">اطلب فني طباخات فوري أو صيانة منزلية الآن</h2>
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group"><label for="name">الاسم الكامل</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="phone">رقم الهاتف</label><input type="tel" id="phone" name="phone" required></div>
+                <div class="form-group"><label for="area">المنطقة بالكويت</label><input type="text" id="area" name="area" required></div>
+                <div class="form-group"><label for="service">نوع الطباخ المراد صيانته</label>
+                    <select id="service" name="service" required>
+                        <option value="">اختر الخدمة</option>
+                        <option value="فني طباخات غاز">فني طباخات غاز</option>
+                        <option value="كهربائي طباخات">كهربائي طباخات</option>
+                        <option value="تصليح طباخات">تصليح طباخات</option>
+                        <option value="صيانة طباخات">صيانة طباخات</option>
+                        <option value="تركيب طباخات">تركيب طباخات</option>
+                    </select>
+                </div>
+                <div class="form-group"><label for="brand">نوع الماركة</label>
+                    <select id="brand" name="brand"><option value="">اختر الماركة</option><option value="Bosch">Bosch</option><option value="Siemens">Siemens</option><option value="LG">LG</option><option value="Samsung">Samsung</option><option value="National">National</option><option value="أخرى">أخرى</option></select>
+                </div>
+                <div class="form-group"><label for="message">تفاصيل العطل (ماذا يحدث بالطباخ؟)</label><textarea id="message" name="message" placeholder="مثال: لا يشعل، لهب ضعيف، الفرن لا يسخن، رائحة غاز، أزرار لا تعمل..."></textarea></div>
+                <button type="submit" class="submit-btn">اطلب فني طباخات الآن</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-clock"></i> <strong>ساعات العمل:</strong> يومياً من 8 صباحاً حتى 10 مساءً (خدمة طوارئ)
+            <br><br>
+            <i class="fas fa-map-pin"></i> <strong>نغطي جميع مناطق الكويت</strong> | حولي، الفروانية، العاصمة، الجهراء، مبارك الكبير، الأحمدي
+            <br><br>
+            <i class="fas fa-phone-alt"></i> <strong>اتصل الآن للحصول على كشف مجاني:</strong> <span style="font-weight:bold;font-size:1.2rem;" onclick="makePhoneCall('66165245')">66165245</span>
+            <br><br>
+            <i class="fas fa-fire-extinguisher"></i> <strong>مركز متخصص في صيانة الطباخات | فني طباخات معتمد | ضمان شامل</strong>
+        </div>
+    </section>
+
+    <div class="search-tags">
+        <h3>كلمات بحث شائعة عن فني وصيانة الطباخات في الكويت</h3>
+        <div class="tags-container">
+            <span class="service-tag">فني طباخات</span><span class="service-tag">تصليح طباخات</span><span class="service-tag">صيانة طباخات الكويت</span>
+            <span class="service-tag">فني طباخات غاز</span><span class="service-tag">كهربائي طباخات</span><span class="service-tag">تركيب طباخات</span>
+            <span class="service-tag">تصليح بوتاجاز</span><span class="service-tag">صيانة طباخات منزلية</span><span class="service-tag">فني طباخات رخيص</span>
+            <span class="service-tag">إصلاح أعطال الطباخ</span><span class="service-tag">فني طباخات 24 ساعة</span>
+        </div>
+    </div>
+
+    <div class="floating-btns">
+        <button class="floating-btn floating-secondary" onclick="makePhoneCall('66165245')">
+            <i class="fas fa-phone-volume"></i> اتصال فوري (كشف مجاني)
+        </button>
+        <button class="floating-btn floating-whatsapp" onclick="trackWhatsAppClick('https://wa.me/96566165245')">
+            <i class="fab fa-whatsapp"></i> واتساب
+        </button>
+    </div>
+
+    <div class="simple-footer">
+        <p>🔥 مركز متخصص في صيانة جميع أنواع الطباخات - تصليح الطباخات المعطلة - فني صيانة محترف - خدمة منزلية في جميع مناطق الكويت</p>
+        <div class="footer-phone" onclick="makePhoneCall('66165245')"><i class="fas fa-phone"></i> 66165245</div>
+        <p>إصلاح جميع الماركات (Bosch, Siemens, LG, National) - ضمان شامل - فحص مجاني - تركيب وفك بأعلى جودة</p>
+        <p>جميع الحقوق محفوظة © 2026 | مركز صيانة الطباخات - خدمة فنية متكاملة بالكويت</p>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion();
+            }
+            alert('شكراً لتواصلكم! سيتم الاتصال بكم من قبل فني طباخات محترف لتأكيد موعد الصيانة والكشف المجاني.');
+            this.reset();
+        });
+        
+        function makePhoneCall(phoneNumber) {
+            var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+            if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+                if (cleanNumber.startsWith('965')) {
+                    cleanNumber = '+' + cleanNumber;
+                } else {
+                    cleanNumber = '+965' + cleanNumber;
+                }
+            }
+            var telUrl = 'tel:' + cleanNumber;
+            
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion(telUrl);
+            }
+            
+            setTimeout(function() {
+                window.location.href = telUrl;
+            }, 100);
+            return false;
+        }
+        
+        function trackWhatsAppClick(url) {
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion(url);
+            }
+            setTimeout(function() {
+                window.open(url, '_blank');
+            }, 100);
+            return false;
+        }
+        
+        // تعزيز دعم اللمس لأجهزة iPhone وجميع الشاشات التي تعمل باللمس
+        var phoneElements = document.querySelectorAll('[onclick*="makePhoneCall"], .phone-display, .footer-phone, .hero-btn, .package-btn, .floating-btn');
+        phoneElements.forEach(function(el) {
+            el.addEventListener('touchstart', function(e) {
+                // لا نمنع السلوك الافتراضي تماماً بل نسمح للنقر أيضًا، لكن نضمن الاستجابة السريعة
+                if (this.getAttribute('onclick')) {
+                    var onclickAttr = this.getAttribute('onclick');
+                    if (onclickAttr.includes('makePhoneCall')) {
+                        var match = onclickAttr.match(/'([^']+)'/);
+                        if (match && match[1]) {
+                            e.preventDefault();
+                            makePhoneCall(match[1]);
+                            return false;
+                        }
+                    } else if (onclickAttr.includes('trackWhatsAppClick')) {
+                        var matchUrl = onclickAttr.match(/'(https?:\/\/[^']+)'/);
+                        if (matchUrl && matchUrl[1]) {
+                            e.preventDefault();
+                            trackWhatsAppClick(matchUrl[1]);
+                            return false;
+                        }
+                    }
+                }
+            }, { passive: false });
+        });
+    </script>
+</body>
+</html>
